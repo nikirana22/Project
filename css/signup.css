@@ -1,7 +1,3 @@
-:root{
-    --placeholderColor:rgba(190, 190, 190, 1);
-    --loginbutton:rgba(135, 65, 230, 1);
-}
 body{
     display: flex;
     align-items: center;
