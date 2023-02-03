@@ -1,0 +1,33 @@
+:root{
+    --placeholderColor:rgba(190, 190, 190, 1);
+    --loginbutton:rgba(135, 65, 230, 1);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textfield-inner-container{
+    margin-top: 5%;
+}
+.textfield{
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 300px;
+}
+/* For changing Textfield Placeholder Color */
+.textfield::placeholder{
+    color: var(--placeholderColor);
+}
+.login-btn{
+    margin-top: 10px;
+    background-color: var(--loginbutton);
+    height: 41px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
